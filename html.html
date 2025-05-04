@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurante Sabores del Alma</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf6f0;
+    }
+    header {
+      background-color: #8B0000;
+      color: white;
+      padding: 1em 2em;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #a52a2a;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 1em;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092'); /* Imagen de portada */
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 2px 2px 8px #000;
+    }
+    .section {
+      padding: 2em;
+      text-align: center;
+    }
+    .menu img {
+      width: 250px;
+      height: 180px;
+      object-fit: cover;
+      margin: 1em;
+      border-radius: 10px;
+    }
+    .contacto {
+      background-color: #fff0e6;
+      padding: 2em;
+    }
+    footer {
+      background-color: #8B0000;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    .social-icons a {
+      margin: 0 1em;
+      color: #8B0000;
+      font-size: 1.5em;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Restaurante Sabores del Alma</h1>
+    <p>Cocina tradicional con amor</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="hero" id="inicio">
+    Bienvenidos
+  </div>
+
+  <div class="section menu" id="menu">
+    <h2>Nuestro Menú</h2>
+    <p>Disfruta de nuestros platos más populares</p>
+    <div>
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Plato 1"/>
+      <img src="https://images.unsplash.com/photo-1613145993481-3f2fa13cc3d6" alt="Plato 2"/>
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Plato 3"/>
+    </div>
+  </div>
+
+  <div class="section contacto" id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📞 Teléfono: <a href="tel:+573001112233">+57 300 111 2233</a></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/573001112233" target="_blank">Chatea con nosotros</a></p>
+    <p>📧 Email: <a href="mailto:contacto@saboresdelalma.com">contacto@saboresdelalma.com</a></p>
+    <div class="social-icons">
+      <p>Síguenos:</p>
+      <a href="https://facebook.com" target="_blank">📘</a>
+      <a href="https://instagram.com" target="_blank">📷</a>
+      <a href="https://twitter.com" target="_blank">🐦</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Restaurante Sabores del Alma. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
